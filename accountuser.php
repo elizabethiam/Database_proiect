@@ -38,7 +38,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active px-lg-4">
+          <li class="nav-item  px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="index.php">Home
               
             </a>
@@ -46,8 +46,14 @@
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.php">About Hermes</a>
           </li>
+           <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="watchView.php">History</a>
+          </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="products.php">Products</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="watches.php">Watches</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
@@ -55,8 +61,8 @@
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
           </li>
-          <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="account.php">Account
+          <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="accountuser.php">Account
               <span class="sr-only">(current)</span></a>
           </li>
         </ul>
@@ -128,7 +134,9 @@ else
 <div class="vertical-menu">
   <a href="#" class="active">Menu</a>
   <a href="prod.php">Watch Products</a>
-  <a href="watches.php">Watch Watches</a>
+
+  <a href="watchView.php">Watch History(Mongodb)</a>
+    <a href="watches.php">Watch Watches(XML)</a>
   <a href="contact.php">Contact Us</a>
   
   <a href="logout.php">Logout</a>

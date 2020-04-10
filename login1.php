@@ -99,7 +99,7 @@ function died($error){
 }
               
 $error_message="";
-$user='Maria';
+$user='Admin';
 $pass='222';
 
 foreach($xml->children() as $data) {

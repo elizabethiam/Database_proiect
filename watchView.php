@@ -43,12 +43,20 @@
              
             </a>
           </li>
-          <li class="nav-item active px-lg-4">
+          <li class="nav-item  px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.php">About Hermes</a>
-             <span class="sr-only">(current)</span>
+            
+          </li>
+           <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="watchView.php">History
+               <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="prod.php">Products</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="watches.php">Watches</a>
+            
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>

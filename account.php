@@ -40,14 +40,20 @@
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="index.php">Home
-              <span class="sr-only">(current)</span>
+             
             </a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.php">About Hermes</a>
           </li>
+           <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="watchView.php">History</a>
+          </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="products.php">Products</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="watches.php">Watches</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
@@ -55,8 +61,9 @@
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
           </li>
-          <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="account.php">Account</a>
+          <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="account.php">Account
+               <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -126,9 +133,10 @@ else
 
 <div class="vertical-menu">
   <a href="#" class="active">Menu</a>
-  <a href="watch.php">Update History</a>
-  <a href="watchprod.php">Update Products</a>
-  <a href="prodwatches.php">Update Watches</a>
+  
+  <a href="watchprod.php">Products</a>
+  <a href="watch.php">History(Mongodb)</a>
+  <a href="prodwatches.php">Watches(XML)</a>
   
   <a href="logout.php">Logout</a>
 </div>

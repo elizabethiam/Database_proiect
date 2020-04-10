@@ -47,6 +47,9 @@
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.php">About Hermes</a>
           </li>
+           <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="watchView.php">History</a>
+          </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="prod.php">Products</a>
           </li>
